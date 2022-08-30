@@ -29,6 +29,4 @@ print(mname_rev)
 #odd even index print
 even_name = name[::2]
 odd_name = name[1::2]
-print(odd_name)
-sclice= str[::-1]
-print(sclice)
+print(even_name,odd_name)

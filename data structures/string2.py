@@ -35,3 +35,17 @@ print( a* 3)
 for i in range(6,0,-1):
     print(i*'*')
 
+    
+#rjust() for right alignment
+for i in range(1,6):
+    print((i*'+').rjust(35))
+for i in range(5,0,-1):
+    print((i*'+').rjust(35))
+for i in range(1,15,2):
+    print((i*'+').center(35))
+
+for i in range(1,15,2):
+    print((i*'*').center(35))
+    if 
+    for i in range(1,1):
+        print((i*'o').center(35))

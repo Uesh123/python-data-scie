@@ -12,4 +12,7 @@ else:
 
 print(msg.find('is'))
 print(msg.index('is'))
-print(msg.find('is',5))
+print(msg.find('is',1)) #1 is the starting point
+
+print(msg.find('to'))
+print(msg.rfind('to')) # revers
